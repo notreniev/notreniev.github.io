@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+h1 {
+    color: grey
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 2%
+}
+
+th {
+    text-align: right
+}
+
+.title {
+    color: brown
+}
