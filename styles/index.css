@@ -1,5 +1,14 @@
 * {
     box-sizing: border-box;
+    color: #666;
+}
+
+body {
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
+    margin: auto;
+    width: 100%;
+    /*font-family: 'Fira Code', 'Courier New', Courier, monospace;*/
+    font-size: 100%;
 }
 
 div {
@@ -90,14 +99,6 @@ footer {
     }
 }
 
-body {
-    margin: auto;
-    width: 100%;
-    font-family: "Open Sans", "DejaVu Sans", sans-serif;
-    /*font-family: 'Fira Code', 'Courier New', Courier, monospace;*/
-    font-size: 100%;
-}
-
 h2 {
     margin-bottom: 0.5%;
     color: tomato;
@@ -165,7 +166,7 @@ hr {
 }
 
 .timeline tbody,
-header {
+th {
     color: black;
 }
 
