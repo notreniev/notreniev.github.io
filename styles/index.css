@@ -14,9 +14,14 @@ div {
 /* Style the header */
 
 header {
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
     padding: 10px;
-    text-align: center;
+    text-align: left;
     font-size: 100%;
+    margin: auto;
+    margin-right: 0%;
+    padding: 20px;
+    width: 80%;
 }
 
 
@@ -66,7 +71,7 @@ section:after {
 footer {
     background-color: #777;
     margin: auto;
-    margin-left: 30%;
+    margin-left: 20%;
     text-align: left;
     padding: 10px;
     color: #fff;
@@ -92,18 +97,24 @@ footer {
 body {
     margin: auto;
     width: 100%;
-    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    font-family: "Open Sans", "DejaVu Sans", sans-serif;
+    /*font-family: 'Fira Code', 'Courier New', Courier, monospace;*/
     font-size: 100%;
 }
 
 h2 {
     margin-bottom: 0.5%;
-    color: darkslategrey;
+    color: tomato;
+}
+
+a:link {
+    color: blue;
 }
 
 .box {
-    padding: 2%;
+    padding: 1%;
     border: dashed 1px;
+    font-size: 70%;
 }
 
 .justify {
@@ -115,20 +126,14 @@ th {
 }
 
 .title {
-    color: orangered
+    font-size: 24pt;
+    color: black
 }
 
 @media print {
     div,
     .page {
         page-break-inside: avoid;
-    }
-}
-
-@media print {
-    .no-print,
-    .no-print * {
-        display: none !important;
     }
 }
 
@@ -141,5 +146,31 @@ a {
 }
 
 strong {
-    color: tomato
+    color: blue
+}
+
+hr {
+    margin-top: 1%;
+    border: dashed 0.5px #c0c0c0;
+}
+
+.timeline th {
+    background-color: tomato;
+    text-align: center;
+    padding: 1%;
+}
+
+.timeline td {
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+
+.timeline tbody,
+header {
+    color: black;
+}
+
+.timeline-content {
+    background-color: teal
 }
