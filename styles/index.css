@@ -83,6 +83,11 @@ footer {
     nav {
         display: none !important;
     }
+    header,
+    footer {
+        margin-left: 1%;
+        padding-left: 1%;
+    }
 }
 
 body {
@@ -98,7 +103,13 @@ h2 {
     color: tomato;
 }
 
+a {
+    color: blue;
+    line-height: 30px;
+}
+
 a:link {
+    text-decoration: none;
     color: blue;
 }
 
@@ -130,10 +141,6 @@ th {
 
 .indent {
     text-indent: 2%
-}
-
-a {
-    color: blue
 }
 
 strong {
@@ -168,4 +175,16 @@ header {
 
 small {
     color: #777;
+}
+
+.requo {
+    padding-left: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
 }
