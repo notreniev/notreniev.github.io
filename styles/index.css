@@ -104,6 +104,10 @@ print {
     .page {
         page-break-inside: avoid;
     }
+    #pdf-version,
+    #placeholder {
+        display: none;
+    }
 }
 
 h2 {
