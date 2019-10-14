@@ -80,6 +80,10 @@ footer {
 
 @media (max-width: 600px),
 print {
+    .timeline{
+        list-style-type: none;
+        font-size: 70%;
+    }    
     header {
         margin: auto;
         padding-left: 2%;
@@ -157,9 +161,13 @@ hr {
     border: dashed 0.5px #c0c0c0;
 }
 
+.timeline{
+    font-size: 70%;
+}
+
 .timeline th {
     background-color: tomato;
-    text-align: center;
+    text-align: left;
     padding: 1%;
 }
 
@@ -167,7 +175,6 @@ hr {
     text-align: left;
     padding: 1%;
     color: white;
-    font-size: 80%;
 }
 
 .timeline td li {
