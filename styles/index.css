@@ -164,8 +164,14 @@ hr {
 }
 
 .timeline td {
-    text-align: center;
+    vertical-align: top;
+    text-align: left;
     padding: 1%;
+    color: white;
+    font-size: 80%;
+}
+
+.timeline td li {
     color: white;
 }
 
