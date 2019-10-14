@@ -164,7 +164,6 @@ hr {
 }
 
 .timeline td {
-    vertical-align: top;
     text-align: left;
     padding: 1%;
     color: white;
@@ -181,7 +180,9 @@ th {
 }
 
 .timeline-content {
-    background-color: teal
+    vertical-align: top;
+    background-color: teal;
+    color: white;
 }
 
 small {
