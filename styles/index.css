@@ -71,8 +71,10 @@ footer {
     margin: auto;
     margin-left: 20%;
     text-align: left;
+    vertical-align: middle;
     padding: 10px;
     color: #fff;
+    height: 60px;
 }
 
 
