@@ -114,6 +114,9 @@ print {
     #placeholder {
         display: none;
     }
+    #counter{
+        display: none;
+    }
 }
 
 h2 {
