@@ -217,3 +217,7 @@ p,
 li {
     line-height: 20pt;
 }
+
+footer div a {
+    color: #777 !important;
+}
