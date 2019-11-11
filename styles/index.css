@@ -36,15 +36,17 @@ nav {
     overflow: auto;
     z-index: 1000;
     background-color: #f0f0f0;
+    
 }
 
 
 /* Style the list inside the menu */
 
-nav ul {
+nav li {
     list-style-type: none;
     padding: 0;
 }
+
 
 article {
     margin: auto;
@@ -184,6 +186,7 @@ hr {
 
 .timeline td li {
     color: white;
+    list-style-type: none;
 }
 
 .timeline tbody,
@@ -202,7 +205,7 @@ small {
 }
 
 .requo {
-    padding-left: 20px;
+    font-size: 80%;
 }
 
 .bold {
@@ -216,6 +219,7 @@ small {
 p,
 li {
     line-height: 20pt;
+    list-style-type: circle;
 }
 
 footer a {
