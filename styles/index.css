@@ -139,7 +139,7 @@ a:link {
 .box {
     padding: 1%;
     border: dashed 1px;
-    font-size: 70%;
+    background-color: #f0f0f0;
 }
 
 .justify {
@@ -204,8 +204,9 @@ small {
     color: #777;
 }
 
-.requo {
+.requo li {
     font-size: 80%;
+    list-style-type: disc;
 }
 
 .bold {
@@ -219,7 +220,7 @@ small {
 p,
 li {
     line-height: 20pt;
-    list-style-type: circle;
+    list-style-type: disc;
 }
 
 footer a {
