@@ -36,7 +36,6 @@ nav {
     overflow: auto;
     z-index: 1000;
     background-color: #f0f0f0;
-    
 }
 
 
@@ -46,7 +45,6 @@ nav li {
     list-style-type: none;
     padding: 0;
 }
-
 
 article {
     margin: auto;
@@ -86,7 +84,7 @@ footer {
 print {
     .timeline {
         list-style-type: none;
-        font-size: 60%;
+        font-size: 70%;
     }
     header {
         margin: auto;
