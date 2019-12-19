@@ -7,37 +7,39 @@ body {
     font-family: "Open Sans", "DejaVu Sans", sans-serif;
     margin: auto;
     width: 100%;
-    font-size: 120%;
-}
-
-div {
-    display: block;
 }
 
 
 /* Style the header */
 
 header {
+    margin-top: 20px;
     margin-left: 20%;
     padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px lightseagreen;
+
 }
 
+header h1 {
+    color: lightseagreen;
+}
 
 /* Create two columns/boxes that floats next to each other */
 
 nav {
+    background-color: #222;
     position: fixed;
     top: 0;
     float: left;
     width: 20%;
-    font-size: 100%;
+    font-size: 80%;
     height: 100%;
     padding: 20px;
     overflow: auto;
+    line-height: 2px;
     z-index: 1000;
-    background-color: #f0f0f0;
 }
-
 
 /* Style the list inside the menu */
 
@@ -46,12 +48,35 @@ nav li {
     padding: 0;
 }
 
-article {
-    margin: auto;
-    margin-right: 0%;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 80%;
+.linha-vertical{
+    margin-left: 22%;
+    border-left: dotted 3px #999;
+    height: 100%;
+    z-index: -1001;
+}
+
+.content{
+    list-style-type: none;
+    padding-left: 11px;
+    height: 100%;
+    width: 90%;
+}
+
+.titulo{
+    position: relative;
+    background-image: url('../images/sphere.png');
+    background-repeat: no-repeat;
+    background-size:30px;
+    text-indent: 30px;
+    top: 100%;
+    left: -28px;
+    padding-left: 10px;
+    margin-bottom: 0.5em;
+    z-index: 1001;
+}
+
+.details{
+    text-indent: 10px;
 }
 
 
@@ -63,20 +88,129 @@ section:after {
     clear: both;
 }
 
+h2 {
+    color: lightseagreen
+}
+
+nav a {
+    color: lightseagreen;
+    line-height: 30px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.requo li {
+    font-size: 100%;
+    list-style-type: disc;
+}
+
+
+.box {
+    margin-left: -40px;
+    padding: 1%;
+    border: dashed 0px;
+    background-color: #f0f0f0;
+}
+
+.justify {
+    text-align: justify;
+}
+
+th {
+    text-align: right
+}
+
+.title {
+    font-size: 150%;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.indent {
+    text-indent: 2%
+}
+
+strong {
+    color: gray
+}
+
+hr {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: dashed 0px #c0c0c0;
+}
+
+.timeline {
+    font-size: 60%;
+}
+
+.timeline th {
+    background-color: tomato;
+    text-align: left;
+    padding: 1%;
+}
+
+.timeline td {
+    text-align: left;
+    padding: 1%;
+    color: white;
+}
+
+.timeline td li {
+    color: white;
+    list-style-type: none;
+}
+
+.timeline tbody,
+th {
+    color: black;
+}
+
+.timeline-content {
+    vertical-align: top;
+    background-color: teal;
+    color: white;
+}
+
+small {
+    color: #777;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right {
+    text-align: right;
+}
+
+p,
+li {
+    line-height: 20pt;
+    list-style-type: disc;
+}
 
 /* Style the footer */
 
 footer {
-    background-color: #777;
-    margin: auto;
-    margin-left: 20%;
-    text-align: left;
-    vertical-align: middle;
-    padding: 10px;
-    color: #fff;
-    height: 60px;
+    position: relative;
+    color: #999;
+    margin-left: 2%;
+    margin-bottom: 1%;
 }
 
+footer a {
+    color: #fff !important;
+}
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 
@@ -117,110 +251,4 @@ print {
     #counter {
         display: none;
     }
-}
-
-h2 {
-    margin-bottom: 0.5%;
-    color: tomato;
-}
-
-a {
-    color: blue;
-    line-height: 30px;
-}
-
-a:link {
-    text-decoration: none;
-    color: blue;
-}
-
-.box {
-    padding: 1%;
-    border: dashed 1px;
-    background-color: #f0f0f0;
-}
-
-.justify {
-    text-align: left;
-}
-
-th {
-    text-align: right
-}
-
-.title {
-    font-size: 150%;
-    color: black
-}
-
-.indent {
-    text-indent: 2%
-}
-
-strong {
-    color: blue
-}
-
-hr {
-    margin-top: 1%;
-    border: dashed 0.5px #c0c0c0;
-}
-
-.timeline {
-    font-size: 60%;
-}
-
-.timeline th {
-    background-color: tomato;
-    text-align: left;
-    padding: 1%;
-}
-
-.timeline td {
-    text-align: left;
-    padding: 1%;
-    color: white;
-}
-
-.timeline td li {
-    color: white;
-    list-style-type: none;
-}
-
-.timeline tbody,
-th {
-    color: black;
-}
-
-.timeline-content {
-    vertical-align: top;
-    background-color: teal;
-    color: white;
-}
-
-small {
-    color: #777;
-}
-
-.requo li {
-    font-size: 80%;
-    list-style-type: disc;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.right {
-    text-align: right;
-}
-
-p,
-li {
-    line-height: 20pt;
-    list-style-type: disc;
-}
-
-footer a {
-    color: #fff !important;
 }
