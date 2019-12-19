@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     color: #666;
-    margin-bottom: 10px;;
+    margin-bottom: 4px;
 }
 
 body {
@@ -17,8 +17,8 @@ header {
     margin-top: 20px;
     margin-left: 20%;
     padding-left: 20px;
+    padding-bottom: 30px;
     border-bottom: solid 1px lightseagreen;
-
 }
 
 header h1 {
@@ -68,11 +68,19 @@ nav li {
     background-repeat: no-repeat;
     background-size:30px;
     text-indent: 30px;
-    top: 100%;
     left: -29px;
     padding-left: 10px;
-    margin-bottom: 0.5em;
     z-index: 1001;
+}
+
+.striped{
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.notstriped{
+    background-color: #ffffff;
+    padding: 10px;
 }
 
 .details{
@@ -89,7 +97,8 @@ section:after {
 }
 
 h2 {
-    color: lightseagreen
+    color: lightseagreen;
+    padding-bottom: 20px;
 }
 
 nav a {
@@ -115,7 +124,8 @@ nav a:hover {
 
 .box {
     margin-left: -40px;
-    padding: 1%;
+    margin-bottom: 20px;
+    padding: 10px;
     border: dashed 0px;
     background-color: #f0f0f0;
 }
@@ -147,38 +157,6 @@ hr {
     padding-top: 4px;
     padding-bottom: 4px;
     border: dashed 0px #c0c0c0;
-}
-
-.timeline {
-    font-size: 60%;
-}
-
-.timeline th {
-    background-color: tomato;
-    text-align: left;
-    padding: 1%;
-}
-
-.timeline td {
-    text-align: left;
-    padding: 1%;
-    color: white;
-}
-
-.timeline td li {
-    color: white;
-    list-style-type: none;
-}
-
-.timeline tbody,
-th {
-    color: black;
-}
-
-.timeline-content {
-    vertical-align: top;
-    background-color: teal;
-    color: white;
 }
 
 small {
