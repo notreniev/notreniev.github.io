@@ -217,7 +217,7 @@ footer a {
 @media (max-width: 600px),
 print {
     .linha-vertical{
-        margin-left: 11%;
+        margin-left: 10%;
         border-left: dotted 3px #999;
         height: 100%;
     }    
