@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     color: #666;
+    margin-bottom: 10px;;
 }
 
 body {
@@ -16,7 +17,6 @@ header {
     margin-top: 20px;
     margin-left: 20%;
     padding-left: 20px;
-    padding-bottom: 20px;
     border-bottom: solid 1px lightseagreen;
 
 }
@@ -59,7 +59,7 @@ nav li {
     list-style-type: none;
     padding-left: 11px;
     height: 100%;
-    width: 90%;
+    width: 80%;
 }
 
 .titulo{
@@ -216,6 +216,11 @@ footer a {
 
 @media (max-width: 600px),
 print {
+    .linha-vertical{
+        margin-left: 11%;
+        border-left: dotted 3px #999;
+        height: 100%;
+    }    
     header {
         margin: auto;
         padding-left: 4%;
@@ -243,7 +248,6 @@ print {
     .titulo{
         left: -32px;
     }
-    
     #pdf-version,
     #placeholder {
         display: none;
