@@ -69,7 +69,7 @@ nav li {
     background-size:30px;
     text-indent: 30px;
     top: 100%;
-    left: -28px;
+    left: -29px;
     padding-left: 10px;
     margin-bottom: 0.5em;
     z-index: 1001;
@@ -227,8 +227,8 @@ print {
     }
     article {
         margin: auto;
-        padding-left: 2%;
-        padding-right: 2%;
+        padding-left: 1%;
+        padding-right: 1%;
         width: 100%;
         height: auto;
     }
@@ -244,6 +244,10 @@ print {
     .page {
         page-break-inside: avoid;
     }
+    .titulo{
+        left: -30px;
+    }
+    
     #pdf-version,
     #placeholder {
         display: none;
