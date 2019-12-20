@@ -57,9 +57,10 @@ nav li {
 
 .content{
     list-style-type: none;
-    padding-left: 11px;
+    padding-left: 10px;
+    padding-right: 20px;
     height: 100%;
-    width: 90%;
+    width: 100%;
 }
 
 .titulo{
