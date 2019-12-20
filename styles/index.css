@@ -59,7 +59,7 @@ nav li {
     list-style-type: none;
     padding-left: 11px;
     height: 100%;
-    width: 80%;
+    width: 90%;
 }
 
 .titulo{
@@ -219,7 +219,6 @@ print {
         margin: auto;
         padding: 2%;
     }
-    div,
     .page {
         page-break-inside: avoid;
     }
