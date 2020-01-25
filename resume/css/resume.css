@@ -182,3 +182,7 @@ a:hover, a:focus, a:active {
 #counter a{
   color: #fff;  
 }
+
+.text-success{
+  color: lightseagreen !important;
+}
