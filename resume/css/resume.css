@@ -192,3 +192,8 @@ a:hover, a:focus, a:active {
   color: #fff !important;
   padding: 20px;
 }
+
+section h3 {
+  letter-spacing: 2px;
+  font-weight: normal;
+}
